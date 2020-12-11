@@ -1,0 +1,217 @@
+.navbarMain{
+	 font-weight: bold; 
+	 font-size: 30px;
+	 color: #00a3e5;
+}
+
+.navbarButton{
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #00a3e5;
+	color: #00a3e5;
+	border-radius: 3px;
+	padding: 4px 9px;
+}
+
+.navbarButton2{
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #00a3e5;
+	color: #00a3e5;
+	border-radius: 3px;
+	padding: 4px 100px;
+	margin: auto;
+}
+
+.navbarButton3{
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #00a3e5;
+	color: #00a3e5;
+	font-size: 20px;
+	border-radius: 3px;
+	padding: 1px 9px;
+	
+}
+
+.navbarButton4{
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #00a3e5;
+	color: #00a3e5;
+	font-size: 19px;
+	border-radius: 3px;
+	padding: 2px 9px 0px 9px;
+	margin: 7px 1px 0px 1px;
+}
+
+.navbarButton5{
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #00a3e5;
+	color: #00a3e5;
+	font-size: 22px;
+	border-radius: 3px;
+	padding: 2px 9px 0px 9px;
+	margin: 5px 1px 0px 95px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+}
+
+.navbarButton:hover{
+	background-color: #00a3e5;
+	color: white;
+}
+
+.navbarButton2:hover{
+	background-color: #00a3e5;
+	color: white;
+}
+
+.navbarButton3:hover{
+	background-color: #00a3e5;
+	color: white;
+}
+
+.navbarButton4:hover{
+	background-color: #00a3e5;
+	color: white;
+}
+
+.navbarButton5:hover{
+	background-color: #00a3e5;
+	color: red;
+}
+
+.navbarForm{
+	/* border: 2px solid #00a3e5; */
+	border-radius: 5px;
+	background-color: #dedfe0;
+}
+
+body{
+	padding-top: 75px;
+	color: #1e6bae;
+	background-color: #dedfe0;	
+}
+
+.homeCard{
+	margin-top: 5em;
+	color:#00a3e5;	
+}
+
+.form-control{
+	background-color: #dedfe0;
+}
+
+.tableAdmin{
+	color:#00a3e5;
+	
+}
+
+.time{
+	/* border: 2px solid #00a3e5;
+	border-radius: 3px; */
+	padding: 4px 9px;
+	font-family: Monaco, "Andalé Mono", monospace;
+	font-size: 20px;
+	color: #8d959d;
+	margin: auto 2px auto 2px;
+	
+}
+
+.date{
+	/* border: 2px solid #00a3e5;
+	border-radius: 3px; */
+	padding: 4px 9px;
+	/* font-family: "Lucida Console", Monaco, monospace; */
+	font-size: 20px;
+	color: #8d959d;
+	margin: auto 2px auto 20px;
+	
+}
+
+input::placeholder{
+	text-align: center;
+	font-style: italic;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  background-size: cover;
+}
+
+.pt-3-half {
+padding-top: 1.4rem;
+}
+
+.tsbg{
+	background-color: #8D959D;
+	
+}
+
+.tsnavhead{
+	font-size: 22px;
+	
+	
+}
+
+.tsContainer{
+	
+  width: 95%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: #282b2e; */
+}
+
+.dropdown-item::hover{
+	background-color: #00a3e5;
+	color: white;
+	
+}
+
+.tsTR{
+	font-size:30px;
+	
+}
+
+#tscellfix{
+	color: red;
+	
+}
+
+.calender{
+	color:#00a3e5;
+	background-color: #272f35;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 5px;
+	
+	
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+   
+}
+
+td::contenteditable{
+	font-size: 30px;
+}
+
+.tsinputs{
+	border-style: none;
+	font-size: 20px;
+	min-width: 150px;
+	text-align: center;
+}
+
+.tsinputs2{
+	border-style: none;
+	font-size: 20px;
+	min-width: 100px;
+	text-align: center;
+}
+
